@@ -1,4 +1,4 @@
-# Menebak Angka 1-10
+# Game Menebak Angka 1-10
 Game menebak angka dengan bahasa python
 
 ## 1. Silahkan Download atau Clone untuk menjalankan programnya
