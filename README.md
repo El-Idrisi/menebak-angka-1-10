@@ -1,29 +1,44 @@
 # Menebak Angka 1-10
 Game menebak angka dengan bahasa python
 
-## Silahkan Download atau Clone untuk menjalankan programnya
--Klik tulisan code di atas kanan
+## 1. Silahkan Download atau Clone untuk menjalankan programnya
 
-## Silahakan Download & Install dulu python 
+### 1.1 Cara Mendownload
+- Klik tulisan *code* di atas kanan
+- Selanjutnya klik *Download ZIP*
+- Dan di EXTRACT
+
+### 1.2 Cara Meng-Clone
+- Klik tulisan *code* di atas kanan
+- Klik *HTTPS* kemudian copy
+- Install Git terlebih dahulu di [https://git-scm.com/downloads]
+- Buka folder yang anda mau simpan file nya
+- Buka Git Bash / Commad Pomprt / Terminal
+- Dan tulis
+``` git bash
+git clone *link yang di copy kan tadi*
+```
+
+## 2. Silahkan Download & Install dulu python 
 di [https://www.python.org/downloads/]
 
-## Cara Mengecheck Apakah Python Sudah Terinstall 
+## 3. Cara Mengecek Apakah Python Sudah Terinstall 
 
-### untuk Windows
+###  3.1 untuk Windows
 - Buka Command Prompt / CMD
 - dan tulis 
 ```
 python --version
 ```
 
-### untuk MacOs
+### 3.2 untuk MacOs
 - Buka terminal
 - dan tulis 
 ```
 python3 --version
 ```
 
-## Cara Menjalankan Program
+## 3. Cara Menjalankan Program
 - Buka Command Prompt / Terminal
 - dan tulis 
 ```
@@ -31,12 +46,12 @@ cd/
 cd c:/tempat/anda/menyimpan/file/pythonnya
  ```
  
-### untuk Windows
+### 4.1 untuk Windows
 ```
 python menebak.py
 ```
 
-### untuk MacOs
+### 4.2 untuk MacOs
 ```
 python3 menebak.py
 ```
