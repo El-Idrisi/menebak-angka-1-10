@@ -7,7 +7,7 @@ Game menebak angka dengan bahasa python
 ## Silahakan Download & Install dulu python 
 di [https://www.python.org/downloads/]
 
-##cara mengecheck apakah python sudah ter install 
+## Cara Mengecheck Apakah Python Sudah Terinstall 
 
 ### untuk Windows
 - Buka Command Prompt / CMD
