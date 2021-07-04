@@ -38,7 +38,7 @@ python --version
 python3 --version
 ```
 
-## 3. Cara Menjalankan Program
+## 4. Cara Menjalankan Program
 - Buka Command Prompt / Terminal
 - dan tulis 
 ```
