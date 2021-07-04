@@ -9,12 +9,12 @@ loop = [3]
 nyawa = 3
 hasil = ''
 
-angka = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+angka = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '10'}
 
 os.system('cls')
-time.sleep(0.5)
+time.sleep(0.3)
 print('Selamat datang di game tebak angka. \nAnda harus menebak angka 1-10 dengan 3 kesempatan')
-time.sleep(0.5)
+time.sleep(0.3)
 ulang = str(input('Apakah anda mau main? '))
 
 if ulang in con:
@@ -24,56 +24,59 @@ if ulang in con:
         comp = random.randint(1, 10)
 
         while nyawa > 0:
+
+            time.sleep(0.3)
+            print("\nMasukan angka 1-10")
             time.sleep(0.5)
             p = input("Masukan angka tebakan anda: ")
 
             if p in angka :
-                nomor = int()
+                p = int(p)
+            
+                nyawa -= 1
 
-            nyawa -= 1
-
-            if nyawa == 2:
-                hasil = 'Masih ada 2 kesempatan lagi'
-            elif nyawa == 1:
-                hasil = 'Masih ada 1 kesempatan lagi'
-            else:
-                hasil = 'Anda gagal menebak angkanya.\nAngka yang diacak adalah ' + str(comp)
-
-            if nyawa > 0 :
-                if p == comp :
-                    nyawa -= nyawa
-                    os.system('cls')
-                    time.sleep(0.5)
-                    print('Anda BENAR. \nAngka yang dicari adalah ' + str(comp))
-                elif p < comp :
-                    os.system('cls')
-                    time.sleep(0.5)
-                    print("Terlalu RENDAH. \n" + str(hasil))
-                elif p > comp :
-                    os.system('cls')
-                    time.sleep(0.5)
-                    print("Terlalu TINGGI. \n" + str(hasil))
-            else:
-                if p != comp:
-                    os.system('cls')
-                    time.sleep(0.5)
-                    print(hasil)
+                if nyawa == 2:
+                    hasil = 'Masih ada 2 kesempatan lagi'
+                elif nyawa == 1:
+                    hasil = 'Masih ada 1 kesempatan lagi'
                 else:
-                    os.system('cls')
-                    time.sleep(0.5)
-                    nyawa += 1
-                    print("Yang anda masukan bukan angka")
+                    hasil = 'Anda gagal menebak angkanya.\nAngka yang diacak adalah ' + str(comp)
 
-        time.sleep(0.5)
+                if nyawa > 0 :
+                    if p == comp :
+                        nyawa -= nyawa
+                        os.system('cls')
+                        time.sleep(0.3)
+                        print('Anda BENAR. \nAngka yang dicari adalah ' + str(comp))
+                    elif p < comp :
+                        os.system('cls')
+                        time.sleep(0.3)
+                        print("Terlalu RENDAH. \n" + str(hasil))
+                    elif p > comp :
+                        os.system('cls')
+                        time.sleep(0.3)
+                        print("Terlalu TINGGI. \n" + str(hasil))
+                else:
+                    if p != comp:
+                        os.system('cls')
+                        time.sleep(0.3)
+                        print(hasil)
+            else:
+                os.system('cls')
+                print(p, ', Tidak ada dalam daftar')
+                time.sleep(3)
+                os.system('cls')
+
+        time.sleep(0.3)
         ulang = input(str('lanjut / tidak? '))
 
         if ulang in con:
             nyawa += 3
 
     os.system('cls')
-    time.sleep(0.5)
+    time.sleep(0.3)
     print('Terima kasih sudah bermain')
 else:
     os.system('cls')
-    time.sleep(0.5)
+    time.sleep(0.3)
     print('Terima kasih sudah bermain')
