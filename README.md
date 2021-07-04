@@ -1,6 +1,6 @@
 # Game Menebak Angka 1-10
-Game menebak angka dengan bahasa python
-Ada sedikit error dalam gamenya
+*Game menebak angka dengan bahasa python
+*Ada sedikit error dalam gamenya
 
 ## 1. Silahkan Download atau Clone untuk menjalankan programnya
 
