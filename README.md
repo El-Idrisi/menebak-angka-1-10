@@ -1,7 +1,7 @@
 # Menebak-angka-1-10
 Game menebak angka dengan bahasa python
 
-### Silahkan Download atau Clone untuk menjalankan programnya
+## Silahkan Download atau Clone untuk menjalankan programnya
 -Klik tulisan code di atas kanan
 
 ## Silahakan Download & Install dulu python 
